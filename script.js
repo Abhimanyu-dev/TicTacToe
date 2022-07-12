@@ -48,14 +48,14 @@ const GameBoard = () => {
     if (column_check.includes(true)) {
       switch (column_check.indexOf(true)) {
         case 0:
-          winner = rows[0][1] == "X" ? playerA : playerB;
+          winner = rows[0][0] == "X" ? playerA : playerB;
           break;
         case 1:
-          winner = rows[1][1] == "X" ? playerA : playerB;
+          winner = rows[0][1] == "X" ? playerA : playerB;
 
           break;
         case 2:
-          winner = rows[2][1] == "X" ? playerA : playerB;
+          winner = rows[0][2] == "X" ? playerA : playerB;
 
           break;
         default:
