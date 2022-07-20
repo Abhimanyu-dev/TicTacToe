@@ -8,7 +8,8 @@ body{
 }
 
 .board{
-    height: 65%;
+    width: 50%;
+    // height: 65%;
     // width: 450px;
     aspect-ratio: 1;
     // border: 1px solid black;
@@ -20,7 +21,8 @@ body{
     // gap: 5px;
     
     .container{
-        height: 90%;
+        // height: 90%;
+        width: 90%;
         aspect-ratio: 1;
         // width: 150px;
         // border: 1px solid red;
@@ -31,7 +33,7 @@ body{
         justify-content: center;
         margin: 1px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
-        font-size: 2rem;
+        // font-size: max(150%,1rem);
         transition: background ease-in 0.25s;
         position: relative;
         cursor: pointer;
@@ -52,9 +54,13 @@ body{
         }
     }
     .x{
+        width: 90%;
+        aspect-ratio: 1;
         background-color:  #dc685a;
     }
     .o{
+        width: 90%;
+        aspect-ratio: 1;
         background-color: #ecaf4f;
     }
 }
@@ -76,7 +82,7 @@ body{
         justify-content: center;
         flex-direction: column;
         background-color: white;
-        height: 50%;
+        width: 50%;
         aspect-ratio: 1;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 10px;
@@ -91,7 +97,7 @@ body{
         .button-container{
             color: white;
             height: 50px;
-            width: 100px;
+            width: 35%;
             border-radius: 10px;
             display: flex;
             align-items: center;

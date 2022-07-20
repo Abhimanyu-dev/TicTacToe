@@ -14,7 +14,7 @@ body {
 }
 
 .board {
-  height: 65%;
+  width: 50%;
   aspect-ratio: 1;
   display: -ms-grid;
   display: grid;
@@ -29,7 +29,7 @@ body {
 }
 
 .board .container {
-  height: 90%;
+  width: 90%;
   aspect-ratio: 1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,7 +45,6 @@ body {
   margin: 1px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
-  font-size: 2rem;
   -webkit-transition: background ease-in 0.25s;
   transition: background ease-in 0.25s;
   position: relative;
@@ -77,10 +76,14 @@ body {
 }
 
 .board .x {
+  width: 90%;
+  aspect-ratio: 1;
   background-color: #dc685a;
 }
 
 .board .o {
+  width: 90%;
+  aspect-ratio: 1;
   background-color: #ecaf4f;
 }
 
@@ -111,7 +114,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: white;
-  height: 50%;
+  width: 50%;
   aspect-ratio: 1;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -136,7 +139,7 @@ body {
 .winner .modal-container .button-container {
   color: white;
   height: 50px;
-  width: 100px;
+  width: 35%;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
